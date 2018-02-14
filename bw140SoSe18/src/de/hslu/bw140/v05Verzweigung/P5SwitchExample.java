@@ -1,7 +1,5 @@
 package de.hslu.bw140.v05Verzweigung;
 
-// test git
-
 public class P5SwitchExample {
   public static void main(String[] args) {
     int month = 15, tage = 0;
