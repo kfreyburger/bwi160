@@ -1,13 +1,6 @@
 package de.hslu.bw140.v05Verzweigung;
 
-/**
- * Title:        Verzweigungen in der Vorlesung
- * Description:
- * Copyright:    Copyright (c) 2003
- * Company:
- * @author
- * @version 1.0
- */
+// test git
 
 public class P5SwitchExample {
   public static void main(String[] args) {
