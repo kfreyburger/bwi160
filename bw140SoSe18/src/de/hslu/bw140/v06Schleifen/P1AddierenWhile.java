@@ -11,5 +11,6 @@ public class P1AddierenWhile {
       i++;
     }
     System.out.println("n: "+ n + " Summe: "+sum);
+    
   }
 }
