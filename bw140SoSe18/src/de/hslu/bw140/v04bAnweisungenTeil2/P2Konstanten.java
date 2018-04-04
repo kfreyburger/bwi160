@@ -6,7 +6,8 @@ public class P2Konstanten {
 		// Ganzzahlige Konstanten:
   	int i = 20;     //Konstante vom Typ integer 
     long l =  3000000000L;   //Konstante vom Typ long
-    i= 0x1000;        //Konstante wird Hexadezimal interpretiert
+    i= 0x52;        //Konstante wird Hexadezimal interpretiert
+    i= 0x352;
     i= 0x3AF;
     
     

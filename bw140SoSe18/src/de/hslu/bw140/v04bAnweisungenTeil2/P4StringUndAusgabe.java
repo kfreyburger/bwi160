@@ -13,7 +13,7 @@ public class P4StringUndAusgabe {
  
     System.out.println(1 + 2 + 3 + 4);    
     System.out.println(1 + 2 + 3 + "4");
-    System.out.println("1" + 2 + 3 + 4);    
+    System.out.println("1" + 2 + 3 + 4);   
     System.out.println('1' + 2 + 3 + 4);
   }
 }

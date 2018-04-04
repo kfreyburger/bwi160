@@ -11,6 +11,7 @@ public class P3Character {
   System.out.print(i);
   System.out.print(" ");
   System.out.println(ch2);
+  
 
   }
 }
