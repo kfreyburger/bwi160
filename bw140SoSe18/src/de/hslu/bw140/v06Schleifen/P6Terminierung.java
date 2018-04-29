@@ -12,19 +12,19 @@ public class P6Terminierung {
 			j++;
 		} while (i < 200);
 			
-    i = 1;
-  	j = 20;
-  	while (i+j > i) {
-			i = i + 2;
-			j--;
-		}
-    
-  	i = 100;
-  	j = 27;
-  	while (i !=j) {
-			i = i / 2;
-			j = j / 3;
-		}
+//    i = 1;
+//  	j = 5;
+//  	while (i+j > i) {
+//			i = i + 2;
+//			j--;
+//		}
+//    
+//  	i = 100;
+//  	j = 27;
+//  	while (i !=j) {
+//			i = i / 2;
+//			j = j / 3;
+//		}
   	
   }
 }

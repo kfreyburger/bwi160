@@ -8,5 +8,6 @@ public static void main(String[] args) {
 	 for( i = 0; i <= k; i++); { 
 		  System.out.println( "Quadrat von " + i + " = " + i*i );
 		}
+//	 System.out.println( "Quadrat von " + i + " = " + i*i );
 	}
 }
