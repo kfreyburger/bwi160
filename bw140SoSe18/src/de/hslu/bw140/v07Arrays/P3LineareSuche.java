@@ -14,6 +14,7 @@ public class P3LineareSuche {
     }
     System.out.println(resultat);
 
+    
 // so könnte man die Ausgabe ein wenig hübscher machen:
     if ( resultat != -1 )
       System.out.println("Die gesuchte Zahl "+ sucheigenschaft+
