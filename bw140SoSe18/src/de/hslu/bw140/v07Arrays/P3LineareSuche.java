@@ -7,9 +7,9 @@ public class P3LineareSuche {
 
     int resultat = -1;
     for (int i=0; i < folge.length; i++) {
+//    for (int i=0;  i < folge.length && resultat == -1; i++) {	
       if ( folge[i] == sucheigenschaft ) {
         resultat = i;
-        break;
       }
     }
     System.out.println(resultat);
