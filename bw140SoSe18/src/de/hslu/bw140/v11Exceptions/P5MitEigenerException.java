@@ -1,13 +1,18 @@
 package de.hslu.bw140.v11Exceptions;
 
 public class P5MitEigenerException {
-
+   
 /* Hier soll eine eigene Exception ausgelöst werden;
  * dadurch kann das Problem spezifisch beschrieben werden
  */
 	public static void main(String[] args) {
+		
+		int a = 1, b = 0;
+		
 		try {
-			divideByZeroThrows();
+
+			System.out.println("Das Ergbnis ist " + divideByZeroThrows(a,b));
+		
 		} catch (P4MeineEigeneException e) {
 			System.out.println("DivideByZeroException gefangen");
 			System.out.println(e);
@@ -16,15 +21,15 @@ public class P5MitEigenerException {
 		}// try
 	}// method
 
-	public static void divideByZeroThrows() throws P4MeineEigeneException {
-		int a = 1, b = 0;
+	public static int divideByZeroThrows(int a, int b) throws P4MeineEigeneException {
+//		int a = 1, b = 0;
 		if (b == 0) {
 			P4MeineEigeneException d = new P4MeineEigeneException();
-//			 MeineEigeneException d =
-//			 new MeineEigeneException("Jetzt kann man den Text etwas freundlicher gestalten");
+//			 P4MeineEigeneException d =
+//			 new P4MeineEigeneException("Jetzt kann man den Text etwas freundlicher gestalten");
 			throw d;
 		} else {
-			System.out.println("Das Ergbnis ist " + a / b);
+			return  a / b;
 		}
 	}// method
 }
