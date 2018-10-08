@@ -3,14 +3,17 @@ package de.hslu.bw140.v04bAnweisungenTeil2;
 public class P4StringUndAusgabe {
   public static void main(String[] args) {
 
-  	System.out.println("Willkommen...");  //Stringkonstante mit " 
-  	int a = 3;
-  	System.out.println(a);
+  	String s = "Willommen..."; //Stringkonstante mit " 
+    System.out.println(s);  
 
-//  Polymorphismus: + bei Strings --> kleben 
-// implizite Typanpassung int --> String  	
-    System.out.println("Variable a = " + a);          
- 
+    int a = 3;
+  	System.out.println(a);
+  	
+  //  Polymorphismus: + bei Strings --> kleben 
+ // implizite Typanpassung int --> String  	
+  	String s2 = "Variable a = "+a;
+  	System.out.println(s2);
+
     System.out.println(1 + 2 + 3 + 4);    
     System.out.println(1 + 2 + 3 + "4");
     System.out.println("1" + 2 + 3 + 4);   
