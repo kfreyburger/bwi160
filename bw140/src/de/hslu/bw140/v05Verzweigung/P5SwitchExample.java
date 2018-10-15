@@ -2,7 +2,7 @@ package de.hslu.bw140.v05Verzweigung;
 
 public class P5SwitchExample {
   public static void main(String[] args) {
-    int month = 15, tage = 0;
+    int month = 4, tage = 0;
 
     switch (month) {
       case 1:
