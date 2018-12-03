@@ -1,4 +1,4 @@
-package de.hslu.bw140.v10gKlassen07;
+package de.hslu.bw140.v10gKlassen08;
 
 public class MixTypTestlauf {
   public static void main(String[] args) {
