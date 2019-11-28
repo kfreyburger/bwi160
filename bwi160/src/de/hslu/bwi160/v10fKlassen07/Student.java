@@ -26,16 +26,8 @@ public class Student {
     return zaehler;
   }
 
-
    public String toString() {
     return this.name+"   "+this.nummer;
   }
-   public static void main(String[] args) {
-	   Student studi1 = new Student("Albert Einstein");
-	   Student studi2 = new Student("Pierre Fermat");
-	   
-	   System.out.println("Bisher gibt es "+Student.getAnzahl()+" Studenten");
-	   
-	   System.out.println(studi2);
-   }
+
 }
