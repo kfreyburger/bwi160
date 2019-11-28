@@ -15,6 +15,7 @@ public class Student {
   }
 
   public static int getAnzahl() {
+  	//this.nummer kann man hier nicht verwenden
     return zaehler;
   }
 
