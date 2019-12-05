@@ -20,7 +20,7 @@ public class P1ErstesBeispiel {
 			// Klappt nur, wenn ganze Zahlen eingegeben wurden
 			System.out.print("Bitte geben Sie den ersten Operand ein: ");
 			int op1 = keyboard.nextInt();
-			System.out.print("Bitte geben Sie den zweite Operand ein: ");
+			System.out.print("Bitte geben Sie den zweiten Operand ein: ");
 			int op2 = keyboard.nextInt();
 
 			int sum = op1 + op2;
