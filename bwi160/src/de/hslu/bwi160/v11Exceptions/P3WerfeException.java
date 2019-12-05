@@ -4,7 +4,7 @@ public class P3WerfeException {
 
 	public static void main(String[] args) {
 		try {
-			divideByZeroThrows();
+			divideByZeroThrows(1,0);
 		} catch (Exception e) {
 			System.out.println("DivideByZeroException gefangen");
 			System.out.println(e);
@@ -13,8 +13,7 @@ public class P3WerfeException {
 		}// try
 	}// method
 
-	public static void divideByZeroThrows() throws ArithmeticException {
-		int a = 1, b = 0;
+	public static void divideByZeroThrows(int a, int b) throws ArithmeticException {
 		if (b == 0) {
 			ArithmeticException d = new ArithmeticException();
 			throw d;
