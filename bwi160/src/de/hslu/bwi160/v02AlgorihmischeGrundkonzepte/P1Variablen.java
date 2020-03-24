@@ -1,4 +1,4 @@
-package de.hslu.bwi160.v02.AlgorihmischeGrundkonzepte;
+package de.hslu.bwi160.v02AlgorihmischeGrundkonzepte;
 
 public class P1Variablen {
 
