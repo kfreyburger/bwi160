@@ -25,6 +25,7 @@ public class Testprogramm {
 			ex.printStackTrace();
 		}
 
+		
 			System.out.println("Das Telefonbuch hat nun " + buch.getAnzahl()
 					+ " Einträge");
 
