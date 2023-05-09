@@ -24,7 +24,6 @@ public class P3WiederholteEingabe {
 			}
 		}
 		
-		
 		System.out.println("Eingegeben wurde " + ganzeZahl);
 		
 		keyboard.close();

@@ -29,3 +29,4 @@ public class P2ZweiZahlen {
 		keyboard.close();
 	}
 }
+
