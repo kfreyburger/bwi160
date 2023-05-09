@@ -11,7 +11,7 @@ package de.hslu.bwi160.v09Input;
 
 import java.io.*;
 
-public class P4StreamTastatur {
+public class P6StreamTastatur {
   public static void main(String[] args) {
     int integer = 0;
     String string = " ";

@@ -3,7 +3,7 @@ package de.hslu.bwi160.v09Input;
 import java.util.Scanner;
 import java.io.File;
 
-public class P3ScannerFile {
+public class P5ScannerFile {
 
 	public static void main(String[] args) {
 		try {

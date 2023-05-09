@@ -2,7 +2,7 @@ package de.hslu.bwi160.v09Input;
 
 import InTools.*;
 
-public class P6DemoToolsTast {
+public class P8DemoToolsTast {
   public static void main(String[] args) {
     int integer = 0;
     String string = " ";

@@ -2,7 +2,7 @@ package de.hslu.bwi160.v09Input;
 
 import InTools.*;
 
-public class P7DemoToolsFile {
+public class P9DemoToolsFile {
 	public static void main(String[] args) {
 
 		// Öffnen des Files

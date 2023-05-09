@@ -2,7 +2,7 @@ package de.hslu.bwi160.v09Input;
 
 import java.util.Scanner;
 
-public class P2ScannerString {
+public class P4ScannerString {
 
 	public static void main(String[] args) {
 		Scanner textScan = new Scanner("Hallo 12 1973 12,03 True 123456789000");
