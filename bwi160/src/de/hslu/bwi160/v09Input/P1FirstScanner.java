@@ -21,6 +21,18 @@ public class P1FirstScanner {
 		}
 		else 
 			System.out.println("Es wurde keine Zahl eingegeben");
+		
+		double gleitkommaZahl;
+		
+		System.out.print("Geben Sie eine Gleitkommazahl ein");
+		// Dezimaltrenner wird vom Betriebssystem übernommen
+		if (keyboard.hasNextDouble()) {
+			gleitkommaZahl = keyboard.nextDouble();
+			System.out.println("Eingegeben wurde " + gleitkommaZahl);
+		}
+		else 
+			System.out.println("Es wurde keine Gleitkommazahl eingegeben");
+		
 		keyboard.close();
 	}
 }

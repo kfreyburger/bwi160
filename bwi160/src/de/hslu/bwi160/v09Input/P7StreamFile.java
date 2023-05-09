@@ -11,7 +11,7 @@ package de.hslu.bwi160.v09Input;
 
 import java.io.*;
 
-public class P5StreamFile {
+public class P7StreamFile {
   public static void main(String[] args) {
 
     int integer = 0;

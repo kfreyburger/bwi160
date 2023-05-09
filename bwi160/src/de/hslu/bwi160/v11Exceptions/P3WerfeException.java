@@ -18,7 +18,7 @@ public class P3WerfeException {
 			ArithmeticException d = new ArithmeticException();
 			throw d;
 		} else {
-			System.out.println("Das Ergbnis ist " + a / b);
+			System.out.println("Das Ergebnis ist " + a / b);
 		}
 	}// method
 }

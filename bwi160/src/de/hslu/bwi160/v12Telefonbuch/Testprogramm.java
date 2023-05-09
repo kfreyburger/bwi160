@@ -1,6 +1,7 @@
 package de.hslu.bwi160.v12Telefonbuch;
 
-import InTools.*;
+import java.io.File;
+import java.util.Scanner;
 
 public class Testprogramm {
 
@@ -11,33 +12,31 @@ public class Testprogramm {
 		String vorname;
 		int nummer;
 
-		// Anlegen des Telefonbuches:
-		InFile.open("input_tel.txt");
-		if (InFile.done()) {
-			// Den Vornamen schon mal lesen, damit dies in der While geprüft werden
-			// kann
-			vorname = InFile.readWord();
-			while (InFile.done()) {
-				// Das Array beginnt mit 0
-				name = InFile.readWord();
-				nummer = InFile.readInt();
+		try {
+			Scanner telFile = new Scanner(new File("input_tel.txt"));
+			while (telFile.hasNextLine()){
+				vorname = telFile.next();
+				name = telFile.next();
+				nummer = telFile.nextInt();
 				buch.hinzufuegen(vorname, name, nummer);
-				// nächster Durchlauf
-				vorname = InFile.readWord();
 			}
-			InFile.close();
+			telFile.close();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
 
 			System.out.println("Das Telefonbuch hat nun " + buch.getAnzahl()
 					+ " Einträge");
 
-			vorname = InTast
-					.readString("Telefonnummer bestimmen, bitte geben Sie Vornamen und Nachnamen ein: ");
-			name = InTast.readString();
+			System.out.print("Telefonnummer bestimmen, bitte geben Sie Vornamen und Nachnamen ein: ");
+			Scanner keyboard = new Scanner(System.in);
+			vorname = keyboard.next();
+			name = keyboard.next();
+
 			if (buch.lookup(vorname, name) != -1)
 				System.out.println("Die Nummer lautet: " + buch.lookup(vorname, name));
 			else
 				System.out.println("Zu dem Namen ist keine Nummer vorhanden");
-		} else
-			System.out.println("Das File konnt nicht geöffnet werden.");
+			keyboard.close();
 	}
 }
