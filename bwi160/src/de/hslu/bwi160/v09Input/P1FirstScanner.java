@@ -22,7 +22,6 @@ public class P1FirstScanner {
 		else 
 			System.out.println("Es wurde keine Zahl eingegeben");
 		
-		
 		double gleitkommaZahl;
 		
 		System.out.print("Geben Sie eine Gleitkommazahl ein");
