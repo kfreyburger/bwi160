@@ -27,6 +27,8 @@ public class P5MitEigenerException {
 		
 		if (b == 0) {
 			P4MeineEigeneException d = new P4MeineEigeneException();
+//			P4MeineEigeneException d =
+//				new P4MeineEigeneException("Jetzt kann man den Text freundlicher gestalten");
 			throw d;
 		} else {
 			return a / b;
