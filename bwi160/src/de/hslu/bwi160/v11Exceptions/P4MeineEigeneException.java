@@ -1,7 +1,7 @@
 package de.hslu.bwi160.v11Exceptions;
 
 public class P4MeineEigeneException
-		extends java.lang.ArithmeticException {
+		extends java.lang.Exception {
 
 	private static final long serialVersionUID = 1L;
 

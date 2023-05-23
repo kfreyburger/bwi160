@@ -4,19 +4,19 @@ public class P3WerfeException {
 
 	public static void main(String[] args) {
 		try {
-			divideByZeroThrows(1,0);
+			divideByZeroThrows(10, 1);
 		} catch (Exception e) {
 			System.out.println("DivideByZeroException gefangen");
-			System.out.println(e);
+//			System.out.println(e);
 //    Zur Abwechslung mal etwas ausführlicher:
-//			e.printStackTrace();
-		}// try
+			e.printStackTrace();
+		} // try
 	}// method
 
-	public static void divideByZeroThrows(int a, int b) throws ArithmeticException {
+	public static void divideByZeroThrows(int a, int b) throws Exception {
 		if (b == 0) {
-			ArithmeticException d = new ArithmeticException();
-			throw d;
+			Exception d1 = new Exception();
+			throw d1;
 		} else {
 			System.out.println("Das Ergebnis ist " + a / b);
 		}
