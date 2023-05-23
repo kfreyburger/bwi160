@@ -11,8 +11,7 @@ public class P5ScannerFile {
 			Scanner textFile = new Scanner(new File("input_text.txt"));
 			while (textFile.hasNextLine())
 				System.out.println(textFile.nextLine());
-			textFile.close();
-		
+			textFile.close();		
+			
 	}
-
 }
