@@ -1,6 +1,6 @@
 package de.hslu.bwi160.v11Exceptions;
 
-public class P5MitEigenerException {
+public class P6MitEigenerException {
 
 	/*
 	 * Hier soll eine eigene Exception ausgelöst werden; dadurch kann das Problem
@@ -14,7 +14,7 @@ public class P5MitEigenerException {
 
 			System.out.println("Das Ergebnis ist " + divideByZeroThrows(a, b));
 
-		} catch (P4MeineEigeneException e) {
+		} catch (P5MeineEigeneException e) {
 			System.out.println("DivideByZeroException gefangen");
 //			System.out.println(e);
 //    Zur Abwechslung mal etwas ausführlicher:
@@ -23,12 +23,12 @@ public class P5MitEigenerException {
 	}// method
 
 	public static int divideByZeroThrows(int a, int b)
-			throws P4MeineEigeneException {
+			throws P5MeineEigeneException {
 		
 		if (b == 0) {
-			P4MeineEigeneException d = new P4MeineEigeneException();
+			P5MeineEigeneException d = new P5MeineEigeneException();
 //			P4MeineEigeneException d =
-//				new P4MeineEigeneException("Jetzt kann man den Text freundlicher gestalten");
+//				new P5MeineEigeneException("Jetzt kann man den Text freundlicher gestalten");
 			throw d;
 		} else {
 			return a / b;
