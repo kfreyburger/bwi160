@@ -3,7 +3,7 @@ package de.hslu.bwi160.v11Exceptions;
 public class P6MitEigenerException {
 
 	/*
-	 * Hier soll eine eigene Exception ausgelöst werden; dadurch kann das Problem
+	 * Hier soll eine eigene Exception ausgelÃ¶st werden; dadurch kann das Problem
 	 * spezifisch beschrieben werden
 	 */
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class P6MitEigenerException {
 		} catch (P5MeineEigeneException e) {
 			System.out.println("DivideByZeroException gefangen");
 //			System.out.println(e);
-//    Zur Abwechslung mal etwas ausführlicher:
+//    Zur Abwechslung mal etwas ausfÃ¼hrlicher:
 			e.printStackTrace();
 		} // try
 	}// method
@@ -27,7 +27,7 @@ public class P6MitEigenerException {
 		
 		if (b == 0) {
 			P5MeineEigeneException d = new P5MeineEigeneException();
-//			P4MeineEigeneException d =
+//			P5MeineEigeneException d =
 //				new P5MeineEigeneException("Jetzt kann man den Text freundlicher gestalten");
 			throw d;
 		} else {
