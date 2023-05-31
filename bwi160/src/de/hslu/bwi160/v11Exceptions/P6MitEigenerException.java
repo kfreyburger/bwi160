@@ -3,7 +3,7 @@ package de.hslu.bwi160.v11Exceptions;
 public class P6MitEigenerException {
 
 	/*
-	 * Hier soll eine eigene Exception ausgelöst werden; dadurch kann das Problem
+	 * Hier soll eine eigene Exception ausgeloest werden; dadurch kann das Problem
 	 * spezifisch beschrieben werden
 	 */
 	public static void main(String[] args) {
