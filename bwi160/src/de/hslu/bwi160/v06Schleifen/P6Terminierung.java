@@ -3,28 +3,13 @@ package de.hslu.bwi160.v06Schleifen;
 public class P6Terminierung {
   public static void main(String[] args) {
   
-  	int i,j;
-  	
-  	i = 1;
-  	j = 1;
-    do {
-			i = i + j;
-			j++;
-		} while (i < 200);
-			
-//    i = 1;
-//  	j = 5;
-//  	while (i+j > i) {
-//			i = i + 2;
-//			j--;
-//		}
-//    
-//  	i = 100;
-//  	j = 27;
-//  	while (i !=j) {
-//			i = i / 2;
-//			j = j / 3;
-//		}
+		final int n = 5;
+		int x = 0, j;
+		for (j = 1; j >=0; x++) {
+       System.out.println("Hallo");
+		}
+		System.out.println("Ende");
+		System.out.println(j);
   	
   }
 }
