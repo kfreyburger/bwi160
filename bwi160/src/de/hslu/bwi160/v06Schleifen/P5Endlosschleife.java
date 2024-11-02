@@ -1,6 +1,6 @@
 package de.hslu.bwi160.v06Schleifen;
 
-public class P6Terminierung {
+public class P5Endlosschleife {
   public static void main(String[] args) {
   
 		final int n = 5;

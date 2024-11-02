@@ -1,6 +1,6 @@
 package de.hslu.bwi160.v06Schleifen;
 
-public class P5Multiplikationstabelle {
+public class P6Multiplikationstabelle {
   public static void main(String[] args) {
     final int n = 5;
     for (int i = 1; i <= n; i++) {
